@@ -1,0 +1,6 @@
+**/Cache/
+**/cache/
+**/*.log
+**/*.db
+**/*.sqlite
+**/GPUCache/
