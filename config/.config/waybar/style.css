@@ -16,7 +16,6 @@ window#waybar {
     background-color: transparent;
 }
 
-
 /* tooltip {
     background: alpha(@background, 0.8);
     border: 1px solid @color5;
@@ -91,10 +90,12 @@ tooltip label {
 #network,
 #pulseaudio,
 #battery,
-#custom-notification {
+#custom-notification,
+#custom-checkupdates {
     /* padding: 0 1rem; */
     /* border-radius: 1rem; */
     color: @foreground;
+    margin: 0 0.5rem;
     /* background-color: alpha(@color5, 0.8); */
     /* background-color: @background; */
     /* border: 0.75px solid @color5; */
@@ -104,4 +105,25 @@ tooltip label {
 #custom-notification {
     /* margin-left: -15px; */
     font-size: 1.3rem;
+}
+
+#custom-spotify {
+    background-color: alpha(@background, 0.7);
+    border-radius: 100px;
+    padding: 0.5rem 1.5rem;
+    border: 0.75px solid @color5;
+    font-size: 1.1rem;
+}
+
+#custom-spotify.Playing {
+    /* color: #1db954; */
+    color: @foreground
+}
+
+#custom-spotify.Paused {
+    color: #6a6a6a;
+}
+
+#custom-checkupdates {
+    font-weight: bold;
 }
