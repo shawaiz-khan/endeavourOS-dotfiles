@@ -1,0 +1,36 @@
+Every 1.0s: amixer -c 1 sget Headphone; ami… arch: 09:55:36 AM
+                                                 in 0.019s (0)
+Simple mixer control 'Headphone',0                            
+  Capabilities: pvolume pswitch                               
+  Playback channels: Front Left - Front Right                 
+  Limits: Playback 0 - 87                                     
+  Mono:                                                       
+  Front Left: Playback 87 [100%] [0.00dB] [on]                
+  Front Right: Playback 87 [100%] [0.00dB] [on]               
+Simple mixer control 'Speaker',0                              
+  Capabilities: pvolume pswitch                               
+  Playback channels: Front Left - Front Right                 
+  Limits: Playback 0 - 87                                     
+  Mono:                                                       
+  Front Left: Playback 87 [100%] [0.00dB] [on]                
+  Front Right: Playback 87 [100%] [0.00dB] [on]               
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
+                                                              
