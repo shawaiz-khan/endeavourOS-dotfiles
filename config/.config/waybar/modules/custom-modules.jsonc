@@ -26,5 +26,11 @@
         "interval": 10,
         "return-type": "json",
         "format": {}
+    },
+    "custom/powerbutton": {
+        "exec": "echo ''",
+        "on-click": "wlogout",
+        "interval": 0,
+        "format": "{}"
     }
 }

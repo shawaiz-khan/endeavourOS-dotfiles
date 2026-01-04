@@ -24,6 +24,7 @@
         "pulseaudio",
         "battery",
         "clock",
-        "custom/notification"
+        "custom/notification",
+        "custom/powerbutton"
     ]
 }
