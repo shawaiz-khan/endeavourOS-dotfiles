@@ -4,7 +4,7 @@ WALLDIR="$HOME/Wallpapers"
 
 choice=$(ls "$WALLDIR" | wofi \
   --dmenu \
-  --prompt "Wallpaper")
+  --prompt "Search for a Wallpaper...")
 
 [ -z "$choice" ] && exit 0
 
