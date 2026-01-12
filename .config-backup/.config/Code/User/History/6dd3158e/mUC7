@@ -1,0 +1,12 @@
+# Postgres variables
+POSTGRES_URL=jdbc:postgresql://pow-it-up.postgres.database.azure.com:5432/keycloak
+POSTGRES_DB=keycloak
+POSTGRES_USER=keycloak_user
+POSTGRES_PASSWORD=KcDb#2026!Dev
+
+# Keycloak variables
+KEYCLOAK_ADMIN=admin
+KEYCLOAK_ADMIN_PASSWORD=admin
+DB_DATABASE=keycloak
+DB_USER=admin
+DB_PASSWORD=test@123

@@ -1,0 +1,14 @@
+2026/01/11-10:59:57.454 ec74 Reusing MANIFEST /home/shawaiz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.figma.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/01/11-10:59:57.455 ec74 Recovering log #103
+2026/01/11-10:59:57.455 ec74 Reusing old log /home/shawaiz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.figma.com_0.indexeddb.leveldb/000103.log 
+2026/01/11-10:59:57.455 ec74 Delete type=2 #101
+2026/01/11-11:00:00.423 ec74 Level-0 table #108: started
+2026/01/11-11:00:00.424 ec74 Level-0 table #108: 648 bytes OK
+2026/01/11-11:00:00.425 ec74 Delete type=0 #103
+2026/01/11-11:00:00.426 ec60 Manual compaction at level-0 from '\x00!\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00"\x00\x00\x00' @ 0 : 0; will stop at '\x00!\x00\x00\x05' @ 915 : 1
+2026/01/11-11:00:00.426 ec60 Compacting 1@0 + 1@1 files
+2026/01/11-11:00:00.427 ec60 Generated table #109@0: 98 keys, 1843 bytes
+2026/01/11-11:00:00.427 ec60 Compacted 1@0 + 1@1 files => 1843 bytes
+2026/01/11-11:00:00.428 ec60 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/01/11-11:00:00.428 ec60 Delete type=2 #108
+2026/01/11-11:00:00.428 ec60 Manual compaction at level-0 from '\x00!\x00\x00\x05' @ 915 : 1 .. '\x00"\x00\x00\x00' @ 0 : 0; will stop at (end)

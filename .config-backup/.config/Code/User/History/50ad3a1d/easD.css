@@ -1,0 +1,61 @@
+/* This was not working that's why I added the colors-waybar.css one*/
+/* @import url("/home/shawaiz/.cache/wal/colors.css"); */
+
+@import url("/home/shawaiz/.cache/wal/colors-waybar.css");
+
+* {
+	background-image: none;
+	box-shadow: none;
+}
+
+window {
+	background-color: alpha(@background, 0.8);
+}
+
+button {
+	border-radius: 0;
+	font-size: 1.5rem;
+	border-color: @color5;
+	text-decoration-color: #FFFFFF;
+	color: @foreground;
+	background-color: @background;
+	border-style: solid;
+	border-width: 1px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 25%;
+	margin: 0.5rem;
+	transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+/* button:focus, */
+/* button:active, */
+button:hover {
+	transform: scale(1.2);
+	background-color: @color5;
+	outline-style: none;
+}
+
+#lock {
+	background-image: image(url("/usr/share/wlogout/icons/lock.png"), url("/usr/local/share/wlogout/icons/lock.png"));
+}
+
+#logout {
+	background-image: image(url("/usr/share/wlogout/icons/logout.png"), url("/usr/local/share/wlogout/icons/logout.png"));
+}
+
+#suspend {
+	background-image: image(url("/usr/share/wlogout/icons/suspend.png"), url("/usr/local/share/wlogout/icons/suspend.png"));
+}
+
+#hibernate {
+	background-image: image(url("/usr/share/wlogout/icons/hibernate.png"), url("/usr/local/share/wlogout/icons/hibernate.png"));
+}
+
+#shutdown {
+	background-image: image(url("/usr/share/wlogout/icons/shutdown.png"), url("/usr/local/share/wlogout/icons/shutdown.png"));
+}
+
+#reboot {
+	background-image: image(url("/usr/share/wlogout/icons/reboot.png"), url("/usr/local/share/wlogout/icons/reboot.png"));
+}

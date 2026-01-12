@@ -1,0 +1,99 @@
+import 'package:flutter/material.dart';
+
+class AuthGate extends StatelessWidget {
+  const AuthGate({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.white,
+      body: Center(
+        child: SizedBox(
+          width: 300,
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Image.asset(
+                "assets/images/logo_2025.png",
+                height: 60,
+                fit: BoxFit.contain,
+                color: Colors.blueAccent.shade200,
+              ),
+
+              const SizedBox(height: 30),
+              // Title
+              Text(
+                "WELCOME TO TASKVAULT",
+                style: const TextStyle(
+                  fontSize: 32,
+                  fontWeight: FontWeight.w900,
+                  letterSpacing: 1.5,
+                  height: 1.5,
+                ),
+                textAlign: TextAlign.center,
+              ),
+
+              const SizedBox(height: 15), // smaller gap to subtitle
+              // Subtitle / description
+              Text(
+                "Manage your tasks privately. No cloud, no sharing, just you and your list.",
+                style: const TextStyle(
+                  fontSize: 16,
+                  letterSpacing: 0.5,
+                  height: 1.4,
+                  fontWeight: FontWeight.w400,
+                ),
+                textAlign: TextAlign.center,
+              ),
+
+              const SizedBox(height: 40), // more gap before buttons
+              // Login button
+              SizedBox(
+                width: 250,
+                child: TextButton(
+                  style: TextButton.styleFrom(
+                    backgroundColor: Colors.blueAccent.shade200,
+                    padding: const EdgeInsets.symmetric(vertical: 14),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                  ),
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/login');
+                  },
+                  child: const Text(
+                    "Login",
+                    style: TextStyle(fontSize: 20, color: Colors.white),
+                  ),
+                ),
+              ),
+
+              const SizedBox(height: 20), // slightly larger gap between buttons
+              // Register button
+              SizedBox(
+                width: 250,
+                child: TextButton(
+                  style: TextButton.styleFrom(
+                    backgroundColor: Colors.blueAccent.shade200,
+                    padding: const EdgeInsets.symmetric(vertical: 14),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                  ),
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/register');
+                  },
+                  child: const Text(
+                    "Register",
+                    style: TextStyle(fontSize: 20, color: Colors.white),
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}

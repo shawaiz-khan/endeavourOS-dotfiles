@@ -1,0 +1,6 @@
+2025/12/29-18:53:20.943 fef Reusing MANIFEST /home/shawaiz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/29-18:53:20.943 fef Recovering log #37
+2025/12/29-18:53:20.952 fef Reusing old log /home/shawaiz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000037.log 
+2025/12/29-19:06:45.872 fdc Level-0 table #42: started
+2025/12/29-19:06:45.888 fdc Level-0 table #42: 1083098 bytes OK
+2025/12/29-19:06:45.893 fdc Delete type=0 #37

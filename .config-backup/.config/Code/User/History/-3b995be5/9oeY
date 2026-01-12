@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+WALLDIR="$HOME/Wallpapers"
+img="$1"
+
+[ -z "$img" ] && exit 1
+[ ! -f "$img" ] && exit 1
+
+swww img "$img" \
+  --transition-type any \
+  --transition-duration 1.2
+
+wal -i "$img" -n && "$HOME/.local/bin/wal-starship.sh" && "$HOME/.config/waybar/scripts/launch.sh"

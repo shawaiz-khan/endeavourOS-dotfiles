@@ -1,0 +1,30 @@
+import 'package:flutter/material.dart';
+
+class ListViewContainer extends StatelessWidget {
+  final List<String> todoList;
+
+  const ListViewContainer({required this.todoList, super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      child: ListView.builder(
+        itemCount: todoList.length,
+        itemBuilder: (context, index) {
+          return Card(
+            color: Colors.blue.shade100,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(5),
+            ),
+            elevation: 0.5,
+            margin: EdgeInsets.all(10),
+            child: Padding(
+              padding: EdgeInsetsGeometry.all(20),
+              child: Text(todoList[index], style: TextStyle(fontSize: 20)),
+            ),
+          );
+        },
+      ),
+    );
+  }
+}

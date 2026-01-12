@@ -1,0 +1,7 @@
+[Default Applications]
+application/json=code.desktop
+text/plain=code.desktop
+
+[Added Associations]
+application/json=code.desktop;
+text/plain=code.desktop;

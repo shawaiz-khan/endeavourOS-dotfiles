@@ -1,0 +1,66 @@
+<application>
+  <component name="TimeBetweenTyping">
+    <dailyDataMap>
+      <entry key="2025-12-14">
+        <DailyData>
+          <option name="count" value="18" />
+          <option name="totalTime" value="21464" />
+        </DailyData>
+      </entry>
+      <entry key="2025-12-16">
+        <DailyData>
+          <option name="count" value="2920" />
+          <option name="totalTime" value="1729574" />
+        </DailyData>
+      </entry>
+      <entry key="2025-12-17">
+        <DailyData>
+          <option name="count" value="180" />
+          <option name="totalTime" value="117589" />
+        </DailyData>
+      </entry>
+      <entry key="2025-12-18">
+        <DailyData>
+          <option name="count" value="1093" />
+          <option name="totalTime" value="606919" />
+        </DailyData>
+      </entry>
+      <entry key="2025-12-19">
+        <DailyData>
+          <option name="count" value="454" />
+          <option name="totalTime" value="326290" />
+        </DailyData>
+      </entry>
+      <entry key="2025-12-20">
+        <DailyData>
+          <option name="count" value="177" />
+          <option name="totalTime" value="141059" />
+        </DailyData>
+      </entry>
+      <entry key="2025-12-21">
+        <DailyData>
+          <option name="count" value="450" />
+          <option name="totalTime" value="210680" />
+        </DailyData>
+      </entry>
+      <entry key="2025-12-23">
+        <DailyData>
+          <option name="count" value="2" />
+          <option name="totalTime" value="1087" />
+        </DailyData>
+      </entry>
+      <entry key="2025-12-27">
+        <DailyData>
+          <option name="count" value="1" />
+          <option name="totalTime" value="172" />
+        </DailyData>
+      </entry>
+      <entry key="2026-01-06">
+        <DailyData>
+          <option name="count" value="996" />
+          <option name="totalTime" value="627857" />
+        </DailyData>
+      </entry>
+    </dailyDataMap>
+  </component>
+</application>

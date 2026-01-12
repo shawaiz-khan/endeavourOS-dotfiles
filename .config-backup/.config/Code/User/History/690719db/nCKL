@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+WALLDIR="$HOME/Wallpapers"
+
+choice=$(ls "$WALLDIR" | wofi --dmenu --show-images)
+
+[ -z "$choice" ] && exit 0
+
+# set the selected wallpaper
+set-wallpaper "$WALLDIR/$choice"

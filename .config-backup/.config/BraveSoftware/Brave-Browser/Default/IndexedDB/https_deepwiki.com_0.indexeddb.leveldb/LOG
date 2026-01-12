@@ -1,0 +1,18 @@
+2025/12/30-15:29:11.681 776 Creating DB /home/shawaiz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_deepwiki.com_0.indexeddb.leveldb since it was missing.
+2025/12/30-15:29:11.684 776 Reusing MANIFEST /home/shawaiz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_deepwiki.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/30-15:29:11.912 776 Level-0 table #5: started
+2025/12/30-15:29:11.914 776 Level-0 table #5: 1664 bytes OK
+2025/12/30-15:29:11.916 776 Delete type=0 #3
+2025/12/30-15:29:11.916 776 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/12/30-15:35:45.096 777 Level-0 table #7: started
+2025/12/30-15:35:45.098 777 Level-0 table #7: 237 bytes OK
+2025/12/30-15:35:45.100 777 Delete type=0 #4
+2025/12/30-15:35:45.100 777 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/12/30-15:35:45.101 777 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x002\x02\x02\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 105 : 0
+2025/12/30-15:35:45.101 777 Compacting 1@1 + 1@2 files
+2025/12/30-15:35:45.102 777 Generated table #8@1: 31 keys, 765 bytes
+2025/12/30-15:35:45.102 777 Compacted 1@1 + 1@2 files => 765 bytes
+2025/12/30-15:35:45.104 777 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/12/30-15:35:45.104 777 Delete type=2 #5
+2025/12/30-15:35:45.104 777 Delete type=2 #7
+2025/12/30-15:35:45.104 777 Manual compaction at level-1 from '\x00\x00\x00\x002\x02\x02\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 105 : 0 .. (end); will stop at (end)

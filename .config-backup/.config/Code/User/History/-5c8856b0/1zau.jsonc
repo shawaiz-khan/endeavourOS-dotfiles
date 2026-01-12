@@ -1,0 +1,31 @@
+{
+    "custom/notification": {
+        "exec": "~/.dotfiles/config/.config/waybar/scripts/notification.sh",
+        "interval": 1,
+        "on-click": "swaync-client -t -sw",
+        "format": "{}",
+        "tooltip": false
+    },
+    "custom/spotify": {
+        "exec": "~/.dotfiles/config/.config/waybar/scripts/spotify.sh",
+        "interval": 1,
+        "return-type": "json",
+        "format": "{icon}  {text}",
+        "format-icons": {
+            "Playing": "",
+            "Paused": "󰏥"
+        },
+        "on-click": "playerctl -p spotify play-pause",
+        "on-click-right": "playerctl -p spotify next",
+        "on-click-left": "playerctl -p spotify previous"
+        // Not working with touchpad
+        // "scroll-up": "playerctl -p spotify next",
+        // "scroll-down": "playerctl -p spotify previous"
+    },
+    "custom/checkupdates": {
+        "exec": "~/.config/waybar/scripts/checkupdates.sh",
+        "interval": 10,
+        "return-type": "json",
+        "format": {}
+    }
+}

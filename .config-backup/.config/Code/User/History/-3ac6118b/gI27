@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+WALLDIR="$HOME/Wallpapers"
+
+choice=$(
+  for img in "$WALLDIR"/*; do
+    name="$(basename "$img")"
+    echo "img:$img $name"
+  done | wofi --dmenu --allow-images --prompt "Wallpaper"
+)
+
+[ -z "$choice" ] && exit 0
+
+# extract image path
+wallpaper="${choice#img:}"
+wallpaper="${wallpaper%% *}"
+
+set-wallpaper "$wallpaper"

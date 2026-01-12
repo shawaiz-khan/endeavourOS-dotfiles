@@ -1,0 +1,48 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+# -------------------- ALIASES --------------------
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias cls='clear'
+
+# -------------------- ENVIRONMENT --------------------
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+export LC_NUMERIC=en_US.UTF-8
+export LC_TIME=en_US.UTF-8
+export LC_MONETARY=en_US.UTF-8
+export LC_PAPER=en_US.UTF-8
+export LC_NAME=en_US.UTF-8
+export LC_ADDRESS=en_US.UTF-8
+export LC_TELEPHONE=en_US.UTF-8
+export LC_MEASUREMENT=en_US.UTF-8
+export LC_IDENTIFICATION=en_US.UTF-8
+
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$ANDROID_HOME/emulator:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools:$PATH
+export JAVA_HOME=/usr/lib/jvm/java-25-openjdk
+export PATH=$PATH/$JAVA_HOME/bin
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="$ANDROID_HOME/cmdline-tools/latest/bin:$PATH"
+
+# -------------------- PYWAL COLORS --------------------
+# Load pywal colors for terminal
+if [ -f ~/.cache/wal/sequences ]; then
+    cat ~/.cache/wal/sequences
+fi
+
+# -------------------- STARSHIP --------------------
+# Starship prompt must come BEFORE ble.sh
+eval "$(starship init bash)"
+
+# -------------------- BLE.SH (inline suggestions) --------------------
+# Load ble.sh for inline suggestions
+if [ -f ~/.ble.sh/out/ble.sh ]; then
+    source ~/.ble.sh/out/ble.sh
+    BLE_COLOR_SUGGEST=8   # optional: gray suggestions
+fi

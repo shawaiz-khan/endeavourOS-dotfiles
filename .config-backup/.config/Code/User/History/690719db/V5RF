@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+WALLDIR="$HOME/Wallpapers"
+
+choice=$(
+  find "$WALLDIR" -type f \( -iname '*.png' -o -iname '*.jpg' -o -iname '*.jpeg' \) \
+  -print0 |
+  while IFS= read -r -d '' file; do
+    name=$(basename "$file")
+    printf '%s\x00icon\x1f%s\n' "$name" "$file"
+  done |
+  wofi --dmenu \
+       --show-icons \
+       --allow-images \
+       --prompt "Wallpaper"
+)
+
+[ -z "$choice" ] && exit 0
+
+set-wallpaper "$WALLDIR/$choice"

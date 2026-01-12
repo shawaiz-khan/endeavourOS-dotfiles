@@ -1,0 +1,20 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/AndroidStudioProjects/MyApplication" value="true" />
+        <entry key="$USER_HOME$/Root Data/Data/Coding/Assignment_1" value="true" />
+        <entry key="$USER_HOME$/Root Data/Data/Coding/MAD/Assignment_1_2" value="true" />
+        <entry key="$USER_HOME$/Root Data/Data/Coding/MAD/Assignment_1_and_2" value="true" />
+        <entry key="$USER_HOME$/Root Data/Data/Coding/MAD/Assignment_2" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="Trusted.Paths.Settings">
+    <option name="TRUSTED_PATHS">
+      <list>
+        <option value="$USER_HOME$/Root Data/Data/Coding/MAD" />
+      </list>
+    </option>
+  </component>
+</application>

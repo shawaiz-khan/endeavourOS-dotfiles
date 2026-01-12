@@ -1,0 +1,9 @@
+# ~/.config/mako/config
+
+font=JetBrains Mono 10
+timeout=4000
+background=#1e1e2e
+foreground=#cdd6f4
+border-color=#89b4fa
+border-width=2
+margin=10

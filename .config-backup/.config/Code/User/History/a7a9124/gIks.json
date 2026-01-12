@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "todo-list-app",
+    "slug": "todo-list-app",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {}
+  },
+  "ios": {}
+}

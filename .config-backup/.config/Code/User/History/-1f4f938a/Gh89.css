@@ -1,0 +1,135 @@
+@import url("/home/shawaiz/.cache/wal/colors-waybar.css");
+
+* {
+    border: none;
+    font-family: "DejaVuSans", "JetBrainsMono Nerd Font Propo";
+    font-size: 1rem;
+
+    /* Mandantory */
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/****** Waybar Window *******/
+window#waybar {
+    background-color: transparent;
+}
+
+
+/* tooltip {
+    background: alpha(@background, 0.8);
+    border: 1px solid @color5;
+}
+
+tooltip label {
+    color: white;
+} */
+
+/****** Workspaces *******/
+#workspaces {
+    background-color: alpha(@background, 0.7);
+    border-radius: 100px;
+    /* transition: background-color 250ms ease, min-width 250ms ease, opacity 200ms ease; */
+    padding: 0.7rem;
+    border: 0.75px solid @color5;
+}
+
+#workspaces button {
+    transition: all 200ms ease-in-out;
+    color: transparent;
+    min-width: 1.4rem;
+    border-radius: 100%;
+    background-color: @color5;
+    /* background-color: alpha(@color5, 0.8); */
+    /* border: 1px solid @foreground; */
+    margin: 0 0.2rem;
+}
+
+#workspaces button:hover {
+    background: @color5;
+    color: @background;
+    outline: none;
+    border: none;
+}
+
+#workspaces button.active {
+    font-weight: 500;
+    background-color: @color15;
+    color: @background;
+    min-width: 3.5rem;
+    border: 0;
+    border-radius: 1rem;
+}
+
+/****** Hyprland/Window *******/
+/* #window {
+    padding: 0 1rem;
+    transition: opacity 200ms ease;
+    border-radius: 0.3rem;
+    background-color: alpha(@color15, 0.7);
+    color: @background; */
+/* font-weight: 700; */
+/* } */
+
+/* make window module transparent when no windows present */
+/* window#waybar.empty #window { */
+/* opacity: 0; */
+/* border: none; */
+/* background-color: transparent; */
+/* } */
+
+#waybar .modules-right {
+    background-color: alpha(@background, 0.7);
+    border-radius: 100px;
+    padding: 0.5rem 1.5rem;
+    border: 0.75px solid @color5;
+}
+
+/****** Icons *******/
+#clock,
+#network,
+#pulseaudio,
+#battery,
+#custom-notification,
+#custom-checkupdates {
+    /* padding: 0 1rem; */
+    /* border-radius: 1rem; */
+    color: @foreground;
+    margin: 0 0.5rem;
+    /* background-color: alpha(@color5, 0.8); */
+    /* background-color: @background; */
+    /* border: 0.75px solid @color5; */
+    /* font-size: 1.1rem; */
+}
+
+#custom-notification {
+    /* margin-left: -15px; */
+    font-size: 1.3rem;
+}
+
+#custom-spotify {
+    background-color: alpha(@background, 0.7);
+    border-radius: 100px;
+    padding: 0.5rem 1.5rem;
+    border: 0.75px solid @color5;
+    font-size: 1.1rem;
+}
+
+#custom-spotify.Playing {
+    /* color: #1db954; */
+    color: @foreground
+}
+
+#custom-spotify.Paused {
+    color: #6a6a6a;
+}
+
+#custom-checkupdates {
+    /* color: @foreground;
+    background-color: alpha(@background, 0.7);
+    border-radius: 100px;
+    padding: 0.5rem 1.5rem;
+    border: 0.75px solid @color5;
+    font-size: 1.1rem; */
+}

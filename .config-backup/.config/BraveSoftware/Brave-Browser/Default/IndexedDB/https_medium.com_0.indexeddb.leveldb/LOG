@@ -1,0 +1,7 @@
+2025/12/27-13:27:44.245 1384 Reusing MANIFEST /home/shawaiz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_medium.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/27-13:27:44.245 1384 Recovering log #3
+2025/12/27-13:27:44.250 1384 Reusing old log /home/shawaiz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_medium.com_0.indexeddb.leveldb/000003.log 
+2025/12/27-13:29:41.795 1385 Level-0 table #5: started
+2025/12/27-13:29:41.800 1385 Level-0 table #5: 95941 bytes OK
+2025/12/27-13:29:41.802 1385 Delete type=0 #3
+2025/12/27-13:29:41.802 1385 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

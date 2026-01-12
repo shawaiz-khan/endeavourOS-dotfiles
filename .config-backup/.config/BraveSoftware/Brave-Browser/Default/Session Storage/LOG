@@ -1,0 +1,18 @@
+2026/01/11-10:59:53.490 5 Reusing MANIFEST /home/shawaiz/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2026/01/11-10:59:53.491 5 Recovering log #13
+2026/01/11-10:59:53.493 5 Reusing old log /home/shawaiz/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000013.log 
+2026/01/11-11:38:17.126 5 Level-0 table #17: started
+2026/01/11-11:38:17.140 5 Level-0 table #17: 17832 bytes OK
+2026/01/11-11:38:17.142 5 Delete type=0 #13
+2026/01/11-14:23:05.169 7 Level-0 table #19: started
+2026/01/11-14:23:05.172 7 Level-0 table #19: 14764 bytes OK
+2026/01/11-14:23:05.176 7 Delete type=0 #16
+2026/01/11-14:23:05.176 7 Compacting 4@0 + 1@1 files
+2026/01/11-14:23:05.182 7 Generated table #20@0: 989 keys, 34502 bytes
+2026/01/11-14:23:05.182 7 Compacted 4@0 + 1@1 files => 34502 bytes
+2026/01/11-14:23:05.184 7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/01/11-14:23:05.185 7 Delete type=2 #8
+2026/01/11-14:23:05.185 7 Delete type=2 #17
+2026/01/11-14:23:05.185 7 Delete type=2 #19
+2026/01/11-14:23:05.185 7 Delete type=2 #14
+2026/01/11-14:23:05.185 7 Delete type=2 #11

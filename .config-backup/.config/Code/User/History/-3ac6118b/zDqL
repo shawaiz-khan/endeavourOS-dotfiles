@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+WALLDIR="$HOME/Wallpapers"
+
+choice=$(find "$WALLDIR" -type f \( -iname "*.jpg" -o -iname "*.png" -o -iname "*.webp" \) \
+  | while read -r img; do
+      name="$(basename "$img")"
+      echo "img:$img $name"
+    done \
+  | wofi --dmenu --allow-images --allow-markup --prompt "Wallpaper")
+
+[ -z "$choice" ] && exit 0
+
+# extract the actual path
+wallpaper=$(echo "$choice" | sed 's/^img:\([^ ]*\).*/\1/')
+
+set-wallpaper "$wallpaper"

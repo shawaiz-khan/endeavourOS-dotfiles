@@ -1,0 +1,6 @@
+2026/01/11-13:04:57.668 ec60 Creating DB /home/shawaiz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_uxdesign.cc_0.indexeddb.leveldb since it was missing.
+2026/01/11-13:04:57.671 ec60 Reusing MANIFEST /home/shawaiz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_uxdesign.cc_0.indexeddb.leveldb/MANIFEST-000001
+2026/01/11-13:13:33.496 ec62 Level-0 table #5: started
+2026/01/11-13:13:33.498 ec62 Level-0 table #5: 6851 bytes OK
+2026/01/11-13:13:33.499 ec62 Delete type=0 #3
+2026/01/11-13:13:33.500 ec62 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

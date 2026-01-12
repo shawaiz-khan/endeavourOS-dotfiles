@@ -1,0 +1,6 @@
+2026/01/11-12:01:07.346 ec60 Creating DB /home/shawaiz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_vercel.com_0.indexeddb.leveldb since it was missing.
+2026/01/11-12:01:07.350 ec60 Reusing MANIFEST /home/shawaiz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_vercel.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/01/11-12:01:15.158 ec76 Level-0 table #5: started
+2026/01/11-12:01:15.160 ec76 Level-0 table #5: 24132 bytes OK
+2026/01/11-12:01:15.162 ec76 Delete type=0 #3
+2026/01/11-12:01:15.163 ec76 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

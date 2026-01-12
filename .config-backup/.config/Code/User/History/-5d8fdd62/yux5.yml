@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: keycloak_postgres
+    environment:
+        POSTGRES_DB: process.
+        POSTGRES_USER: keycloak
+        POSTGRES_PASSWORD: secret

@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+
+img="$1"
+[ -f "$img" ] || exit 1
+
+# Paths for reload scripts
+WAYBAR_SCRIPT="$HOME/.config/waybar/scripts/launch.sh"
+STARSHIP_SCRIPT="$HOME/.local/bin/wal-starship.sh"
+
+# --------------- 1. Set wallpaper ---------------
+swww img "$img" --transition-type any --transition-duration 1.2
+
+# --------------- 2. Generate standard Pywal colors ---------------
+wal -i "$img" -n
+
+# --------------- 3. Generate Pywal templates dynamically ---------------
+TEMPLATE_DIR="$HOME/.config/wal/templates"
+if [ -d "$TEMPLATE_DIR" ]; then
+    for template in "$TEMPLATE_DIR"/*.template; do
+        [ -f "$template" ] || continue
+        wal -i "$img" -t -c "$template"
+    done
+fi
+
+# --------------- 4. Reload Hyprland if its colors template exists ---------------
+HYPRLAND_CONF_CACHE="$HOME/.cache/wal/colors-hyprland.conf"
+[ -f "$HYPRLAND_CONF_CACHE" ] && hyprctl reload
+
+# --------------- 5. Reload Waybar ---------------
+[ -x "$WAYBAR_SCRIPT" ] && "$WAYBAR_SCRIPT"
+
+# --------------- 6. Reload Starship ---------------
+[ -x "$STARSHIP_SCRIPT" ] && "$STARSHIP_SCRIPT"

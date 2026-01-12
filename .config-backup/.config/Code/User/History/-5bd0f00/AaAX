@@ -1,0 +1,14 @@
+# Base image
+FROM quay.io/keycloak/keycloak:21.1.1
+
+# Set environment variables for admin user
+ENV KEYCLOAK_ADMIN=admin
+ENV KEYCLOAK_ADMIN_PASSWORD=admin
+ENV DB_VENDOR=POSTGRES
+ENV DB_ADDR=postgres
+ENV DB_DATABASE=keycloak
+ENV DB_USER=admin
+ENV DB_PASSWORD=test@123
+
+# Start Keycloak in dev mode
+ENTRYPOINT ["/opt/keycloak/bin/kc.sh", "start-dev"]

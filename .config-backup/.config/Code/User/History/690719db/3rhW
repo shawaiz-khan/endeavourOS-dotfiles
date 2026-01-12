@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+WALLDIR="$HOME/Wallpapers"
+
+choice=$(find "$WALLDIR" -type f | wofi \
+  --dmenu
+  --show images \
+  --prompt "Wallpaper" \
+  --width 600 \
+  --height 400)
+
+[ -z "$choice" ] && exit 0
+
+set-wallpaper "$choice"

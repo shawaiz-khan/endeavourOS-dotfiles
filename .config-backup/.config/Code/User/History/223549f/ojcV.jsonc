@@ -1,0 +1,105 @@
+{
+    "layer": "top",
+    "position": "top",
+    "margin-top": 10,
+    "margin-left": 10,
+    "margin-right": 10,
+    // "margin-bottom": 10,
+    "spacing": 25,
+    "reload_style_on_change": true,
+    "modules-left": [
+        "hyprland/workspaces"
+    ],
+    "modules-center": [
+        "custom/spotify"
+    ],
+    "modules-right": [
+        "network",
+        "pulseaudio",
+        "battery",
+        "clock",
+        "custom/notification",
+    ],
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "on-click": "activate",
+        "persistent-workspaces": {
+            "*": 5
+        },
+        "tooltip": false
+    },
+    // "hyprland/window": {
+    //     "format": "{initialTitle}",
+    //     "max-length": 100,
+    //     "separate-outputs": true
+    // },
+    "network": {
+        "interface": "wlan0",
+        "format-wifi": " {essid}",
+        "format-ethernet": "󰊗 {ipaddr}",
+        "format-disconnected": "󰖪",
+        "tooltip": false
+    },
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-muted": " muted",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": [
+                "",
+                ""
+            ]
+        },
+        "scroll-step": 2,
+        "on-click": "pavucontrol",
+        "tooltip": false
+    },
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon} {capacity}%",
+        "format-charging": "󰂄 {capacity}%",
+        "format-icons": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "tooltip": false
+    },
+    "clock": {
+        "format": "{:%H:%M}",
+        "format-alt": "{:%a %d %b}",
+        "tooltip": false
+    },
+    "custom/notification": {
+        "exec": "~/.config/waybar/scripts/notification.sh",
+        "interval": 1,
+        "on-click": "swaync-client -t -sw",
+        "format": "{}",
+        "tooltip": false
+    },
+    "custom/spotify": {
+        "exec": "~/.config/waybar/scripts/spotify.sh",
+        "interval": 1,
+        "return-type": "json",
+        "format": "{icon}  {text}",
+        "format-icons": {
+            "Playing": "",
+            "Paused": "󰏥"
+        },
+        "on-click": "playerctl -p spotify play-pause"
+        // Not working with touchpad
+        // "scroll-up": "playerctl -p spotify next",
+        // "scroll-down": "playerctl -p spotify previous"
+    },
+    
+}

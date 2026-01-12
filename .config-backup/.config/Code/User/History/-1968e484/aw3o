@@ -1,0 +1,13 @@
+# ~/.config/mako/config
+
+font=JetBrains Mono 10
+default-timeout=4000
+background-color=#1e1e2e
+border-color=#89b4fa
+border-size=2
+margin=10
+layer=overlay
+sort=-time
+icons=1# This is an append test
+timeout=5000
+border-width=3

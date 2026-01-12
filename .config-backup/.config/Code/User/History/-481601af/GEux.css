@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+:root {
+    --light-brand-100: #ffffff;
+    --light-brand-200: #f4f4f4;
+    --light-brand-300: #e6e6e6;
+    --dark-brand-100: #2a2a2a;
+    --dark-brand-200: #121212;
+    --dark-brand-300: #000000;
+}
+
+@theme inline {
+    
+}

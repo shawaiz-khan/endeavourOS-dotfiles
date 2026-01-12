@@ -1,0 +1,47 @@
+{
+   "checksum": "3f54b171a9eb6c4d91552fc7d7033d71",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13411563544054897",
+            "date_last_used": "0",
+            "guid": "c11d4f7d-7a59-4d47-9d6a-d508efd559de",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "dawsers/hyprscroller: Hyprland layout plugin providing a scrolling layout like PaperWM",
+            "type": "url",
+            "url": "https://github.com/dawsers/hyprscroller?tab=readme-ov-file"
+         } ],
+         "date_added": "13411562751196079",
+         "date_last_used": "0",
+         "date_modified": "13411563544054897",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13411562751196079",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13411562751196079",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

@@ -1,0 +1,30 @@
+{
+    "layer": "top",
+    "position": "top",
+    "margin-top": 10,
+    "margin-left": 10,
+    "margin-right": 10,
+    // "margin-bottom": 10,
+    "spacing": 10,
+    "reload_style_on_change": true,
+    // Load the custom modules
+    "include": [
+        "~/.dotfiles/config/.config/waybar/modules/system-modules.jsonc",
+        "~/.dotfiles/config/.config/waybar/modules/custom-modules.jsonc"
+    ],
+    "modules-left": [
+        "hyprland/workspaces"
+    ],
+    "modules-center": [
+        "custom/spotify",
+        "custom/powerbutton"
+    ],
+    "modules-right": [
+        "custom/checkupdates",
+        "network",
+        "pulseaudio",
+        "battery",
+        "clock",
+        "custom/notification"
+    ]
+}

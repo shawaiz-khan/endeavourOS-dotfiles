@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+# Directory of wallpapers (optional fallback)
+WALLDIR="$HOME/Wallpapers"
+
+# Full path passed as argument
+img="$1"
+
+[ -z "$img" ] && exit 1
+[ ! -f "$img" ] && exit 1
+
+# Set wallpaper with swww
+swww img "$img" \
+  --transition-type any \
+  --transition-duration 1.2
+
+# Update terminal colors with pywal
+wal -i "$img" -n
+
+# Generate toml file
+"$HOME/.local/bin/wal-starship.sh"

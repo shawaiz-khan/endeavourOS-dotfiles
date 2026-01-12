@@ -1,0 +1,45 @@
+2026/01/11-10:32:20.241 5 Reusing MANIFEST /home/shawaiz/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2026/01/11-10:32:20.246 5 Recovering log #316
+2026/01/11-10:32:20.247 5 Reusing old log /home/shawaiz/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000316.log 
+2026/01/11-10:39:53.887 7 Level-0 table #321: started
+2026/01/11-10:39:53.899 7 Level-0 table #321: 15069 bytes OK
+2026/01/11-10:39:53.900 7 Delete type=0 #316
+2026/01/11-10:40:01.712 7 Level-0 table #323: started
+2026/01/11-10:40:01.725 7 Level-0 table #323: 37473 bytes OK
+2026/01/11-10:40:01.728 7 Delete type=0 #320
+2026/01/11-10:47:39.303 7 Level-0 table #325: started
+2026/01/11-10:47:39.315 7 Level-0 table #325: 37368 bytes OK
+2026/01/11-10:47:39.318 7 Delete type=0 #322
+2026/01/11-10:48:25.579 7 Level-0 table #327: started
+2026/01/11-10:48:25.582 7 Level-0 table #327: 37040 bytes OK
+2026/01/11-10:48:25.583 7 Delete type=0 #324
+2026/01/11-10:48:25.584 7 Compacting 4@0 + 1@1 files
+2026/01/11-10:48:25.596 7 Generated table #328@0: 480 keys, 528861 bytes
+2026/01/11-10:48:25.596 7 Compacted 4@0 + 1@1 files => 528861 bytes
+2026/01/11-10:48:25.597 7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/01/11-10:48:25.598 7 Delete type=2 #318
+2026/01/11-10:48:25.598 7 Delete type=2 #327
+2026/01/11-10:48:25.598 7 Delete type=2 #321
+2026/01/11-10:48:25.598 7 Delete type=2 #325
+2026/01/11-10:48:25.598 7 Delete type=2 #323
+2026/01/11-10:50:25.579 7 Level-0 table #330: started
+2026/01/11-10:50:25.591 7 Level-0 table #330: 39290 bytes OK
+2026/01/11-10:50:25.593 7 Delete type=0 #326
+2026/01/11-10:53:25.580 7 Level-0 table #332: started
+2026/01/11-10:53:25.584 7 Level-0 table #332: 36899 bytes OK
+2026/01/11-10:53:25.587 7 Delete type=0 #329
+2026/01/11-10:54:25.580 7 Level-0 table #334: started
+2026/01/11-10:54:25.592 7 Level-0 table #334: 36337 bytes OK
+2026/01/11-10:54:25.594 7 Delete type=0 #331
+2026/01/11-10:55:25.579 7 Level-0 table #336: started
+2026/01/11-10:55:25.618 7 Level-0 table #336: 36257 bytes OK
+2026/01/11-10:55:25.620 7 Delete type=0 #333
+2026/01/11-10:55:25.620 7 Compacting 4@0 + 1@1 files
+2026/01/11-10:55:25.628 7 Generated table #337@0: 480 keys, 528493 bytes
+2026/01/11-10:55:25.628 7 Compacted 4@0 + 1@1 files => 528493 bytes
+2026/01/11-10:55:25.629 7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/01/11-10:55:25.630 7 Delete type=2 #336
+2026/01/11-10:55:25.630 7 Delete type=2 #334
+2026/01/11-10:55:25.630 7 Delete type=2 #332
+2026/01/11-10:55:25.630 7 Delete type=2 #330
+2026/01/11-10:55:25.630 7 Delete type=2 #328

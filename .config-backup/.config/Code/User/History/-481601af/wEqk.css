@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+:root {
+    --light-brand: #f4f4f4;
+    --dark-brand: #121212;
+}

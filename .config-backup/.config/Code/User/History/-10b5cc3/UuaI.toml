@@ -1,0 +1,92 @@
+palette = "wal"
+
+"$schema" = 'https://starship.rs/config-schema.json'
+
+add_newline = true
+
+# ---------------- Prompt ----------------
+format = """
+$username$fill$directory$fill$time
+
+$git_branch$git_status$status$character
+"""
+
+# ---------------- Username ----------------
+[username]
+show_always = true
+style_user = ""
+format = " [$user]($style) "
+
+# ---------------- Fill ----------------
+[fill]
+symbol = "-"
+style = "bold"
+
+# ---------------- Directory ----------------
+[directory]
+style = "bold"
+format = " [ $path ]($style) "
+truncation_length = 2
+truncation_symbol = "…/"
+
+# ---------------- Git Branch ----------------
+[git_branch]
+symbol = ""
+style = "bg:palette.blue fg:palette.background bold"
+format = " [$symbol $branch]($style) "
+
+[git_status]
+style = "bg:palette.blue fg:palette.background bold"
+format = "[$all_status$ahead_behind]($style)"
+
+# ---------------- Languages ----------------
+[nodejs]
+symbol = ""
+style = "bg:palette.black fg:palette.green bold"
+format = "[$symbol ($version)]($style)"
+
+[rust]
+symbol = ""
+style = "bg:palette.black fg:palette.green bold"
+format = "[$symbol ($version)]($style)"
+
+[golang]
+symbol = ""
+style = "bg:palette.black fg:palette.green bold"
+format = "[$symbol ($version)]($style)"
+
+[php]
+symbol = ""
+style = "bg:palette.black fg:palette.green bold"
+format = "[$symbol ($version)]($style)"
+
+# ---------------- Time ----------------
+[time]
+disabled = false
+time_format = "%R"
+style = "bg:palette.background fg:palette.foreground bold"
+format = "[  $time ]($style)"
+
+# ---------------- Status Symbol ----------------
+[status]
+style = 'bg:blue'
+symbol = ' ❯ '
+success_symbol = '🟢 SUCCESS'
+format = '[\[$symbol$common_meaning$signal_name$maybe_int\]]($style) '
+map_symbol = true
+disabled = false
+
+vicmd_symbol = "
+
+# ---------------- Palette Definition (Pywal) ----------------
+[palettes.wal]
+background = "#050B16"
+foreground = "#adbdcf"
+black      = "#050B16"
+red        = "#394D68"
+green      = "#465873"
+yellow     = "#4F617B"
+blue       = "#3E5C81"
+magenta    = "#526C8E"
+cyan       = "#5A7699"
+white      = "#adbdcf"

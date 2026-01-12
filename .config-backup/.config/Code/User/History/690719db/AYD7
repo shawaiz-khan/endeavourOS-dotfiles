@@ -1,0 +1,2 @@
+find "$HOME/Wallpapers" -type f -iname "*.jpg" | \
+rofi -dmenu -show-icons -theme-str 'element-icon { size: 150px; }'

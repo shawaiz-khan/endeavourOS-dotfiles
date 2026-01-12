@@ -1,0 +1,68 @@
+@import url("/home/shawaiz/.cache/wal/colors-waybar.css");
+
+:root {
+  line-height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.control-center {
+  border-radius: 1rem;
+  padding: 2rem 1rem;
+  border: 1px solid @color5;
+  background-color: alpha(@background, 0.8);
+}
+
+.widgets>.widget {
+  background: @background;
+  border-radius: 1rem;
+  padding: 1rem;
+  border: 1px solid @color5;
+}
+
+.widget-mpris>box>button {
+  background: @background;
+  border-radius: 1rem;
+  padding: 1rem;
+  border: 2px solid @color5;
+}
+
+.control-center-list-placeholder {
+  padding: 1rem;
+}
+
+.notification-group {
+  border-radius: 1rem;
+  padding: 8px;
+}
+
+.widget.widget-mpris {
+  background: transparent;
+  border-radius: 0;
+  padding: 0;
+  border: none;
+}
+
+.widget.widget-mpris>carouselindicatordots {
+  display: flex;
+  padding: 0.5rem;
+  color: @color15;
+}
+
+.widget-mpris>box>button {
+  background: alpha(@background, 0.8);
+}
+
+.widget-mpris>box>button:hover {
+  background: @background;
+}
+
+.widget-mpris-player {
+  box-shadow: none;
+  border: var(--border);
+  margin: 0 var(--padding);
+}
+
+.widget-mpris-player:only-child {
+  margin: 0;
+}
